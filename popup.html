@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="libs/jquery-3.7.0.js"></script>
+    <script src="popup.js"></script>
+    <title>CPP Hub</title>
+  </head>
+  <body>
+    <div class="extension-bg">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <div class="navbar-item">
+                    <div class="title is-5">
+                        CPP Hub
+                    </div>
+                </div>
+                <div class="navbar-item" style="padding-left: 125px;">
+                    <input class="input is-success is-small is-rounded" type="text" id="searchBar" placeholder="Search">
+                </div>
+            </div>
+            
+        </nav>
+        <div class="extension-content">
+            <div class="message is-link">
+                <div class="message-header">
+                <p>Popular</p>
+                <div>
+                    <i class="fas fa-star"></i>
+                </div>              
+                </div>
+                <div class="message-body">
+                    <div class="buttons">
+                        <a class="button is-white is-rounded" href="https://canvas.cpp.edu/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-laptop"></i> 
+                                Canvas
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/broncodirect/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-horse-head"></i> 
+                                BroncoDirect
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://my.cpp.edu/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-user-graduate"></i> 
+                                MyCPP
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://outlook.office365.com/cpp.edu" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-envelope"></i> 
+                                Email
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://cpp.campus.eab.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-users"></i> 
+                                CPP Connect
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://cpp.navigate.eab.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-clipboard-list"></i> 
+                                Planner
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/library/access-services/group-study-rooms/reserve-a-room.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-book-reader"></i> 
+                                Book Study Room
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cppscheduler.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-calendar-alt"></i> 
+                                CPP Scheduler
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="message is-primary">
+                <div class="message-header">
+                <p>Library</p>
+                <div>
+                    <i class="fas fa-book-open"></i>
+                </div>
+                </div>
+                <div class="message-body">
+                    <div class="buttons">
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/library/access-services/group-study-rooms/reserve-a-room.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-book-reader"></i> 
+                                Book Study Room
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/library/index.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-book"></i> 
+                                University Library
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.broncobookstore.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-store"></i> 
+                                Bronco Bookstore
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/it/services.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-laptop-code"></i> 
+                                IT Services
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="message is-warning">
+                <div class="message-header">
+                <p>Education</p>
+                <div>
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                </div>
+                <div class="message-body">
+                    <div class="buttons">
+                        <a class="button is-white is-rounded" href="https://canvas.cpp.edu/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-laptop"></i> 
+                                Canvas
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/broncodirect/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-horse-head"></i> 
+                                BroncoDirect
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://cpp.navigate.eab.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-clipboard-list"></i> 
+                                Planner
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://cpp.campus.eab.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-users"></i> 
+                                CPP Connect
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://outlook.office365.com/cpp.edu" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-envelope"></i> 
+                                Email
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/academicplanning/academic-calendar/index.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-calendar-alt"></i> 
+                                Academic Calendar
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cppscheduler.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-calendar-alt"></i> 
+                                CPP Scheduler
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://catalog.cpp.edu/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-book-open"></i> 
+                                Course Catalog
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/academic-programs/academic-advising/tools/sheets-roadmaps/index.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-graduation-cap"></i> 
+                                Curriculum Sheets
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>        
+            <div class="message is-danger">
+                <div class="message-header">
+                <p>Health & Safety</p>
+                <div>
+                    <i class="fas fa-heartbeat"></i>
+                </div>              
+                </div>
+                <div class="message-body">
+                    <div class="buttons">
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/health/index.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-medkit"></i> 
+                                Health and Wellness Services
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/caps/index.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-hands-helping"></i> 
+                                Counseling & Psychological Services
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/police/index.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-shield-alt"></i> 
+                                University Police
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="message is-info">
+                <div class="message-header">
+                <p>Colleges</p>
+                <div>
+                    <i class="fas fa-university"></i>
+                </div>
+                </div>
+                <div class="message-body">
+                    <div class="buttons">
+                        <a class="button is-small is-white is-rounded" href="http://www.cpp.edu/~agri/" target="_blank">
+                            <div>
+                                <i class="fas fa-tractor"></i> 
+                                Don B. Huntley College of Agriculture
+                            </div>
+                        </a>
+                        <a class="button is-small is-white is-rounded" href="http://www.cpp.edu/~cba/" target="_blank">
+                            <div>
+                                <i class="fas fa-chart-line"></i> 
+                                College of Business Administration
+                            </div>
+                        </a>
+                        <a class="button is-small is-white is-rounded" href="http://www.cpp.edu/~ceis/" target="_blank">
+                            <div>
+                                <i class="fas fa-pencil-alt"></i> 
+                                College of Education and Integrative Studies
+                            </div>
+                        </a>
+                        <a class="button is-small is-white is-rounded" href="http://www.cpp.edu/~engineering/" target="_blank">
+                            <div>
+                                <i class="fas fa-cog"></i> 
+                                College of Engineering
+                            </div>
+                        </a>
+                        <a class="button is-small is-white is-rounded" href="https://www.cpp.edu/env" target="_blank">
+                            <div>
+                                <i class="fas fa-building"></i> 
+                                College of Environmental Design
+                            </div>
+                        </a>
+                        <a class="button is-small is-white is-rounded" href="http://www.cpp.edu/~collins/" target="_blank">
+                            <div>
+                                <i class="fas fa-concierge-bell"></i> 
+                                Collins College of Hospitality Management
+                            </div>
+                        </a>
+                        <a class="button is-small is-white is-rounded" href="http://www.cpp.edu/~class/" target="_blank">
+                            <div>
+                                <i class="fas fa-paint-brush"></i> 
+                                College of Letters, Arts, and Social Sciences
+                            </div>
+                        </a>
+                        <a class="button is-small is-white is-rounded" href="http://www.cpp.edu/~sci/" target="_blank">
+                            <div>
+                                <i class="fas fa-laptop-code"></i> 
+                                College of Science
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="message is-success">
+                <div class="message-header">
+                <p>Other</p>
+                <div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                </div>
+                <div class="message-body">
+                    <div class="buttons">
+                        <a class="button is-white is-rounded" href="https://connectcpp.atriumcampus.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-money-bill"></i> 
+                                Bronco Bucks
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://cpp.service-now.com/askbilly" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-horse"></i> 
+                                Ask Billy
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.cpp.edu/housing/index.shtml" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-home"></i> 
+                                University Housing Services
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://www.foundation.cpp.edu/dining/hours.aspx" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-utensils"></i> 
+                                Dining Services
+                            </div>
+                        </a>
+                        <a class="button is-white is-rounded" href="https://csupomona.t2hosted.com/" target="_blank">
+                            <div>
+                                <i class="fas fa-sm fa-car"></i> 
+                                Parking Portal
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer pb-6">
+        <div class="content has-text-centered">
+          <p class="is-size-7">
+            <strong>CPP Hub</strong> is not an official product of Cal Poly Pomona. It is developed and maintained independently. Cal Poly Pomona bears no responsibility for its accuracy or content. All logos and trademarks are property of their respective owners.
+          </p>
+          <p class="is-size-6 mb-2">
+            &copy; 2023 Pablo Duenas . All rights reserved.
+          </p>
+          <div class="px-5">
+            <p class="mb-1">
+               Contact me 
+            </p>
+            <a href="https://www.linkedin.com/in/pduenas007" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a class="px-3" href="discordapp.com/users/pab_dev" target="_blank">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="mailto:pduenas@cpp.edu" id="email-button">
+                <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>
+

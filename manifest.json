@@ -3,7 +3,7 @@
   "author": "pabloduenas64@gmail.com",
   "name": "CPP Hub",
   "version": "1.0.1",
-  "description": "Boost your CPP experience with easy access to essential links to campus platforms and resources . 🐎",
+  "description": "Boost your CPP experience with easy access to essential links to campus platforms and resources. 🐎",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Go Broncos!",
@@ -13,7 +13,6 @@
       "128": "icons/logo-128.png"
     }
   },
-  "permissions": ["activeTab"],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self';"
   },

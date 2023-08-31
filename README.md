@@ -14,7 +14,7 @@ CPP Hub is an easy-to-navigate Chrome extension designed to enhance your experie
 
 ## Installation
 
-1. Visit the [CPP Hub listing page]([https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/detail/cpp-hub/iifnccklcnenpdboegacaolpknpcbhmi]) in the Chrome Web Store.
+1. Visit the [CPP Hub listing page](https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/detail/cpp-hub/iifnccklcnenpdboegacaolpknpcbhmi) in the Chrome Web Store.
 2. Click "Add to Chrome"
 3. Once downloaded, you may pin the extension to your Chrome toolbar for easy access.
 

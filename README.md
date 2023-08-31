@@ -4,7 +4,7 @@
 
 ## Overview
 
-CPP Hub is a easy-to-navigate Chrome extension designed to enhance your experience as a Cal Poly Pomona student. It provides quick access to essential links and resources that you frequently use or need on campus.
+CPP Hub is an easy-to-navigate Chrome extension designed to enhance your experience as a Cal Poly Pomona student. It provides quick access to essential links and resources that you frequently use or need on campus.
 
 ## Features
 
@@ -14,9 +14,9 @@ CPP Hub is a easy-to-navigate Chrome extension designed to enhance your experien
 
 ## Installation
 
-1. Visit the [CPP Hub listing page]([https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/detail/cpp-hub/iifnccklcnenpdboegacaolpknpcbhmi)) in the Chrome Web Store.
+1. Visit the [CPP Hub listing page]([https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/detail/cpp-hub/iifnccklcnenpdboegacaolpknpcbhmi]) in the Chrome Web Store.
 2. Click "Add to Chrome"
-3. Once dowloaded, you may pin the extension to your Chrome toolbar for easy access.
+3. Once downloaded, you may pin the extension to your Chrome toolbar for easy access.
 
 ## How to Use
 

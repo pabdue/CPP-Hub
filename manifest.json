@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "author": "pabloduenas64@gmail.com",
   "name": "CPP Hub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Boost your CPP experience with easy access to essential links to campus platforms and resources. 🐎",
   "action": {
     "default_popup": "popup.html",
